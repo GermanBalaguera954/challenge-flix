@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #1c1c1c;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.banner {
+    /* background-image: url("your-image-url.jpg");*/
+    background-size: cover;
+    padding: 4rem;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 2rem;
+}
+
+.banner-content p {
+    font-size: 1.2rem;
+}
+
+.categories {
+    padding: 2rem;
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: #1c1c1c;
+    padding: 1rem;
+    flex: 1;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1c1c1c;
+}
